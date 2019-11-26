@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bugz" translatesAutoresizingMaskIntoConstraints="NO" id="hDV-2r-SpX">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bugz-apps" translatesAutoresizingMaskIntoConstraints="NO" id="hDV-2r-SpX">
                                 <rect key="frame" x="-30" y="0.0" width="474" height="896"/>
                             </imageView>
                         </subviews>
@@ -35,6 +35,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bugz" width="166.66667175292969" height="166.66667175292969"/>
+        <image name="Bugz-apps" width="166.66667175292969" height="166.66667175292969"/>
     </resources>
 </document>

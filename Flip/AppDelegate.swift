@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Flip
 //
-//  Created by shankar ganesh on 11/25/19.
+//  Created by bugz.app.developer on 11/25/19.
 //  Copyright © 2019 bugz. All rights reserved.
 //
 
