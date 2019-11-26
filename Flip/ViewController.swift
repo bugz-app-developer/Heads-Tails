@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Flip
 //
-//  Created by shankar ganesh on 11/25/19.
+//  Created by bugz.app.developer on 11/25/19.
 //  Copyright © 2019 bugz. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var mainImageView: UIImageView!
     
-    let arr = [#imageLiteral(resourceName: "loading8"),#imageLiteral(resourceName: "loading6"),#imageLiteral(resourceName: "loading5"),#imageLiteral(resourceName: "loading9"),#imageLiteral(resourceName: "Tails"),#imageLiteral(resourceName: "loading2"),#imageLiteral(resourceName: "loading10"),#imageLiteral(resourceName: "loading1"),#imageLiteral(resourceName: "Heads"),#imageLiteral(resourceName: "loading4"),#imageLiteral(resourceName: "loading6"),#imageLiteral(resourceName: "loading11"),#imageLiteral(resourceName: "loading7"),#imageLiteral(resourceName: "loading1")]
+    let arr = [#imageLiteral(resourceName: "loading8"),#imageLiteral(resourceName: "loading6"),#imageLiteral(resourceName: "loading5"),#imageLiteral(resourceName: "loading9"),#imageLiteral(resourceName: "loading2"),#imageLiteral(resourceName: "loading10"),#imageLiteral(resourceName: "loading1"),#imageLiteral(resourceName: "loading4"),#imageLiteral(resourceName: "loading6"),#imageLiteral(resourceName: "loading11"),#imageLiteral(resourceName: "loading7"),#imageLiteral(resourceName: "loading1")]
     let opts = [#imageLiteral(resourceName: "Heads"),#imageLiteral(resourceName: "Tails")]
     
     @IBOutlet weak var tossButton: UIButton!
@@ -36,3 +36,4 @@ class ViewController: UIViewController {
         }
     }
 }
+
