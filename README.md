@@ -11,4 +11,6 @@ Download now and use it
 - Anytime for making a decision
 
 # Support
-In case of issues, questions and feedback, please email at - __bugz.app.developer@gmail.com__
+In case of issues, questions and feedback, please email at  
+
+__bugz.app.developer@gmail.com__
