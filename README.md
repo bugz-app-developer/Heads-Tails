@@ -11,11 +11,4 @@ Download now and use it
 - Anytime for making a decision
 
 # Support
-In case of issues, questions and feedback, please email at - bugz.app.developer@gmail.com
-
-### UI Light
-![Heads | Tails](https://github.com/bugz-app-developer/Heads-Tails/blob/master/light.png)
-
-
-### UI Dark
-![Heads | Tails](https://github.com/bugz-app-developer/Heads-Tails/blob/master/dark.png)
+In case of issues, questions and feedback, please email at - __bugz.app.developer@gmail.com__
