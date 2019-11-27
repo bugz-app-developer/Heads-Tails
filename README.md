@@ -10,6 +10,9 @@ Download now and use it
 - While playing any outdoor games
 - Anytime for making a decision
 
+# Support
+In case of issues, questions and feedback, please email at - bugz.app.developer@gmail.com
+
 ### UI Light
 ![Heads | Tails](https://github.com/bugz-app-developer/Heads-Tails/blob/master/light.png)
 
