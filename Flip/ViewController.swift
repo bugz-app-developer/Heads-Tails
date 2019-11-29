@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         mainImageView.animationDuration = 0.6
         mainImageView.startAnimating()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.mainImageView.stopAnimating()
             self.mainImageView.image = self.opts.randomElement()
         }
