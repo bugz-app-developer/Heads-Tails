@@ -14,7 +14,56 @@
 		6878ED41238CA51500801861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6878ED40238CA51500801861 /* Assets.xcassets */; };
 		6878ED44238CA51500801861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6878ED42238CA51500801861 /* LaunchScreen.storyboard */; };
 		6878ED4C238CA68D00801861 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6878ED4B238CA68D00801861 /* UIButtonExtension.swift */; };
+		68D1E8FA2390FBB7003A7217 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D1E8F82390FBB7003A7217 /* Interface.storyboard */; };
+		68D1E8FC2390FBB8003A7217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D1E8FB2390FBB8003A7217 /* Assets.xcassets */; };
+		68D1E9032390FBB8003A7217 /* flip-watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 68D1E9022390FBB8003A7217 /* flip-watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		68D1E9082390FBB8003A7217 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D1E9072390FBB8003A7217 /* InterfaceController.swift */; };
+		68D1E90A2390FBB8003A7217 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D1E9092390FBB8003A7217 /* ExtensionDelegate.swift */; };
+		68D1E90C2390FBB8003A7217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D1E90B2390FBB8003A7217 /* Assets.xcassets */; };
+		68D1E9102390FBB8003A7217 /* flip-watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 68D1E8F62390FBB7003A7217 /* flip-watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68D1E9042390FBB8003A7217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6878ED2C238CA51400801861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D1E9012390FBB8003A7217;
+			remoteInfo = "flip-watch Extension";
+		};
+		68D1E90E2390FBB8003A7217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6878ED2C238CA51400801861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68D1E8F52390FBB7003A7217;
+			remoteInfo = "flip-watch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68D1E9112390FBB8003A7217 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				68D1E9102390FBB8003A7217 /* flip-watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D1E9142390FBB8003A7217 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				68D1E9032390FBB8003A7217 /* flip-watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6878ED34238CA51400801861 /* Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flip.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +75,26 @@
 		6878ED43238CA51500801861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6878ED45238CA51500801861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6878ED4B238CA68D00801861 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButtonExtension.swift; path = "../../Dicee-iOS13/Dicee-iOS13/UIButtonExtension.swift"; sourceTree = "<group>"; };
+		68D1E8F62390FBB7003A7217 /* flip-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flip-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D1E8F92390FBB7003A7217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		68D1E8FB2390FBB8003A7217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68D1E8FD2390FBB8003A7217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D1E9022390FBB8003A7217 /* flip-watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "flip-watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D1E9072390FBB8003A7217 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		68D1E9092390FBB8003A7217 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		68D1E90B2390FBB8003A7217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68D1E90D2390FBB8003A7217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6878ED31238CA51400801861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D1E8FF2390FBB8003A7217 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				6878ED36238CA51400801861 /* Flip */,
+				68D1E8F72390FBB7003A7217 /* flip-watch */,
+				68D1E9062390FBB8003A7217 /* flip-watch Extension */,
 				6878ED35238CA51400801861 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				6878ED34238CA51400801861 /* Flip.app */,
+				68D1E8F62390FBB7003A7217 /* flip-watch.app */,
+				68D1E9022390FBB8003A7217 /* flip-watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +139,27 @@
 			path = Flip;
 			sourceTree = "<group>";
 		};
+		68D1E8F72390FBB7003A7217 /* flip-watch */ = {
+			isa = PBXGroup;
+			children = (
+				68D1E8F82390FBB7003A7217 /* Interface.storyboard */,
+				68D1E8FB2390FBB8003A7217 /* Assets.xcassets */,
+				68D1E8FD2390FBB8003A7217 /* Info.plist */,
+			);
+			path = "flip-watch";
+			sourceTree = "<group>";
+		};
+		68D1E9062390FBB8003A7217 /* flip-watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				68D1E9072390FBB8003A7217 /* InterfaceController.swift */,
+				68D1E9092390FBB8003A7217 /* ExtensionDelegate.swift */,
+				68D1E90B2390FBB8003A7217 /* Assets.xcassets */,
+				68D1E90D2390FBB8003A7217 /* Info.plist */,
+			);
+			path = "flip-watch Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,15 +170,51 @@
 				6878ED30238CA51400801861 /* Sources */,
 				6878ED31238CA51400801861 /* Frameworks */,
 				6878ED32238CA51400801861 /* Resources */,
+				68D1E9112390FBB8003A7217 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				68D1E90F2390FBB8003A7217 /* PBXTargetDependency */,
 			);
 			name = Flip;
 			productName = Flip;
 			productReference = 6878ED34238CA51400801861 /* Flip.app */;
 			productType = "com.apple.product-type.application";
+		};
+		68D1E8F52390FBB7003A7217 /* flip-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D1E9182390FBB8003A7217 /* Build configuration list for PBXNativeTarget "flip-watch" */;
+			buildPhases = (
+				68D1E8F42390FBB7003A7217 /* Resources */,
+				68D1E9142390FBB8003A7217 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68D1E9052390FBB8003A7217 /* PBXTargetDependency */,
+			);
+			name = "flip-watch";
+			productName = "flip-watch";
+			productReference = 68D1E8F62390FBB7003A7217 /* flip-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		68D1E9012390FBB8003A7217 /* flip-watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68D1E9172390FBB8003A7217 /* Build configuration list for PBXNativeTarget "flip-watch Extension" */;
+			buildPhases = (
+				68D1E8FE2390FBB8003A7217 /* Sources */,
+				68D1E8FF2390FBB8003A7217 /* Frameworks */,
+				68D1E9002390FBB8003A7217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "flip-watch Extension";
+			productName = "flip-watch Extension";
+			productReference = 68D1E9022390FBB8003A7217 /* flip-watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +227,12 @@
 				ORGANIZATIONNAME = bugz;
 				TargetAttributes = {
 					6878ED33238CA51400801861 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					68D1E8F52390FBB7003A7217 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					68D1E9012390FBB8003A7217 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -119,6 +251,8 @@
 			projectRoot = "";
 			targets = (
 				6878ED33238CA51400801861 /* Flip */,
+				68D1E8F52390FBB7003A7217 /* flip-watch */,
+				68D1E9012390FBB8003A7217 /* flip-watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +265,23 @@
 				6878ED44238CA51500801861 /* LaunchScreen.storyboard in Resources */,
 				6878ED41238CA51500801861 /* Assets.xcassets in Resources */,
 				6878ED3F238CA51400801861 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D1E8F42390FBB7003A7217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D1E8FC2390FBB8003A7217 /* Assets.xcassets in Resources */,
+				68D1E8FA2390FBB7003A7217 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D1E9002390FBB8003A7217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D1E90C2390FBB8003A7217 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +299,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		68D1E8FE2390FBB8003A7217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D1E90A2390FBB8003A7217 /* ExtensionDelegate.swift in Sources */,
+				68D1E9082390FBB8003A7217 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68D1E9052390FBB8003A7217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68D1E9012390FBB8003A7217 /* flip-watch Extension */;
+			targetProxy = 68D1E9042390FBB8003A7217 /* PBXContainerItemProxy */;
+		};
+		68D1E90F2390FBB8003A7217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68D1E8F52390FBB7003A7217 /* flip-watch */;
+			targetProxy = 68D1E90E2390FBB8003A7217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6878ED3D238CA51400801861 /* Main.storyboard */ = {
@@ -165,6 +338,14 @@
 				6878ED43238CA51500801861 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		68D1E8F82390FBB7003A7217 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68D1E8F92390FBB7003A7217 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -324,6 +505,88 @@
 			};
 			name = Release;
 		};
+		68D1E9122390FBB8003A7217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7K53VG3R2;
+				IBSC_MODULE = flip_watch_Extension;
+				INFOPLIST_FILE = "flip-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugz.Flip.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		68D1E9132390FBB8003A7217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7K53VG3R2;
+				IBSC_MODULE = flip_watch_Extension;
+				INFOPLIST_FILE = "flip-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugz.Flip.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		68D1E9152390FBB8003A7217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7K53VG3R2;
+				INFOPLIST_FILE = "flip-watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugz.Flip.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		68D1E9162390FBB8003A7217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7K53VG3R2;
+				INFOPLIST_FILE = "flip-watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugz.Flip.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -341,6 +604,24 @@
 			buildConfigurations = (
 				6878ED49238CA51500801861 /* Debug */,
 				6878ED4A238CA51500801861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D1E9172390FBB8003A7217 /* Build configuration list for PBXNativeTarget "flip-watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D1E9152390FBB8003A7217 /* Debug */,
+				68D1E9162390FBB8003A7217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68D1E9182390FBB8003A7217 /* Build configuration list for PBXNativeTarget "flip-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D1E9122390FBB8003A7217 /* Debug */,
+				68D1E9132390FBB8003A7217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
