@@ -29,7 +29,7 @@
                                 <rect key="frame" x="128.66666666666666" y="798" width="156.99999999999997" height="59"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="157" id="WgN-fj-YnR"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="157" id="WgN-fj-YnR"/>
                                     <constraint firstAttribute="height" constant="59" id="z9P-OM-Dds"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="40"/>
